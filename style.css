@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.background {
+    position: absolute;
+width: 1444px;
+height: 996px;
+left: 0px;
+top: 12px;
+
+background: url(002.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#banner{
+    background: linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe),url("img/002.jpg");
+    background-size: cover;
+    background: position 100%;
+    height: 100vh;
+}
+.navbar{
+    text-transform: uppercase;
+    font: size 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+        color:#fff;
+        padding-left: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+        color:rgb(0, 204, 255);
+}
+.heading-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color:#fff;
+    font-family: monospace;
+}
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color:#fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading-content p{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color:#ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+#service .btn{
+    border:2px solid transparent;
+    width: 40%;
+    padding: 10px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#service .btn a{
+    color: fff; 
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#service .btn :hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
+}
+
+
+#Testimonials .button{
+    border:2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#Testimonials .btn a{
+    color:#D826C6; 
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#Testimonials .btn :hover{
+     border: 2px solid #1ebba3;
+     cursor: pointer;
+}
+.testimonials{
+    padding:40px 0;
+    background:rgba(86, 10, 228, 0.5);
+    color: #fff;
+    text-align: center;
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding:0 20px;
+}
+.border{
+    width:160px;
+    height: 5px;
+    margin: 26px auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.col{
+    flex:50%;
+    max-width:50%;
+    box-sizing:border-box;
+    padding:15px;
+}
+.testimonials{
+    background:#ccc;
+    padding:30px;
+
+}
+.testimonials img{
+width:100px;
+height: 100px;
+border-radius:50%
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:20px 0;
+}
+
+#calculator2{
+    background:linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe);
+}
+#calculstor2 p{
+    background:linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe);
+}
+/* HOME */
+#home{
+position: relative;
+width: 132px;
+height: 49px;
+left: 87px;
+top: 82px;
+}
+/* SERVICES */
+#services{
+background: linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe);    
+position: relative;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'san-serif';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 24px;
+}
+/* TESTIMONIALS */
+#testimonials{
+background: linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe);    
+position: relative;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+/* CONTACTS */
+#contacts{
+background: linear-gradient(rgba(86, 10, 228, 0.5),#b9bebe);   
+position: relative;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+/* TALK WITH FP */
+.wrapper p{
+position: absolute;
+width: 704px;
+height: 80px;
+left: 351px;
+top: 324px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+color: #DB2FDE;
+}
+/* I AM YOUR VIRTUAL FRIEND. */
+.wrapper p{
+
+position: absolute;
+width: 300px;
+height: 40px;
+left: 400px;
+top: 404px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px,!important;
+line-height: 20px;
+
+color: #D826C6;
+}
+/* WE CAN TALK ABOUT ANYTHING */
+.wrapper p{
+position: absolute;
+width: 410px;
+height: 64px;
+left: 400px;
+top: 491px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #DB2FDE;
+}
+
+@media screen and (max-width:960px){
+    .col{
+        flex:100%;
+        max-width:80%;
+    }
+}
+@media screen and(max-width:600px) {
+    .col{
+        flex:100%;
+        max-width:100%;
+    }
+}
+
+
+
+
+
+
+
+
